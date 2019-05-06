@@ -6,7 +6,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from numpy.random import beta
-from load_dataset import load_NTUdataset
 from os.path import join
 import h5py
 ##########################################################################################
