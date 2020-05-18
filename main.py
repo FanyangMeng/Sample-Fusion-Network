@@ -177,8 +177,8 @@ def main():
            hind_dim,args.lama,args.epochs,args.SFN_layers,args.HAR_layers))
     ####################################################################################
 
-    model_SFN = SFNNet(input_dim,hind_dim,args.SFN_layers).cuda()
-    model_HAR = HARNet(input_dim,args.Output_dim,args.HAR_layers,args.Output_classnum).cuda()
+    model_SFN = SFNNet(input_dim,hind_dim,args.SFN_layers).to(device)
+    model_HAR = HARNet(input_dim,args.Output_dim,args.HAR_layers,args.Output_classnum).to(device)
 
     optimizer = optim.Adam(list(model_SFN.parameters())+list(model_HAR.parameters()), lr=args.lr)
     lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, args.LR_STEP, 0.1)
