@@ -4,8 +4,8 @@ https://ieeexplore.ieee.org/document/8704987
 
 
 The processed data of NTU-RGB+D can be obtained by Baidu Cloud:
-Link：https://pan.baidu.com/s/1kfeTEvLmAb4fkNrVEmdZkw
-Extraction Code ：mxrx
+Link：https://pan.baidu.com/s/1hdrkaiAlctPdIX7hwgKmFg
+Extraction Code ：8jbp
 
 For a given skeleton data x in the NTU RGB+D dataset, the data preprocessing is as follows：
 
